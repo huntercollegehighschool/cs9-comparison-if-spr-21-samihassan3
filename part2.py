@@ -7,15 +7,15 @@ In the code below, the user is asked to enter three numbers, and then prints a s
 (Hint: If you see a red squiggly line in the code, that probably means there is a syntax error there.)
 '''
 
-num1 = int(input("Enter a number: "))
-num2 = int(input("Enter another number: "))
-num3 = int(input("Enter another number: "))
+x = int(input("Enter a number: "))
+y = int(input("Enter another number: "))
+z = int(input("Enter another number: "))
 
-if(num1 == num2 == num3)
+if(x == y == z):
   print("All three numbers are equal.")
 
-if(num1 = num2 or num2 = num3 or num1 = num3):
-print("Exactly two of the numbers are equal.")
+elif(x == y or y == z or x == z):
+  print("Exactly two of the numbers are equal.")
 
-else
+else:
   print("None of the numbers are equal.")
