@@ -23,6 +23,3 @@ not a month
 '''
 
 #start writing your code below
-x = int(input("here: "))
-if x % 3 == 0:
-  print("divisible by zero")
